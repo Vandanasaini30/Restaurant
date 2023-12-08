@@ -7,25 +7,25 @@ const DUMMY_MEALS = [
     id: 'm1',
     name: 'Panner Tikka',
     description: 'soft panner with gravy',
-    price: 400,
+    price: 40,
   },
   {
     id: 'm2',
     name: 'Rajma chawal',
     description: 'Rajama with stream rice',
-    price: 350,
+    price: 30,
   },
   {
     id: 'm3',
     name: 'Masala Dosa',
     description: 'South Indian dish',
-    price: 250,
+    price: 20,
   },
   {
     id: 'm4',
     name: 'Dal Makhani',
     description: 'mix pulses with tadka',
-    price: 350,
+    price: 35,
   },
 ];
 

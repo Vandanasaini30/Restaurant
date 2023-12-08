@@ -16,7 +16,8 @@
 }
 
 .main-image {
-  width: 100%;
+  width: 120%;
+
   height: 25rem;
   z-index: 0;
   overflow: hidden;
