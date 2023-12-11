@@ -1,4 +1,5 @@
 
+/* Header Styles */
 .header {
   position: fixed;
   top: 0;
@@ -13,14 +14,16 @@
   padding: 0 10%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 10;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
 }
 
+/* Main Image Styles */
 .main-image {
   width: 120%;
-
   height: 25rem;
   z-index: 0;
   overflow: hidden;
+  position: relative; /* Ensure the position is relative for absolute positioning inside */
 }
 
 .main-image img {
@@ -28,4 +31,17 @@
   height: 100%;
   object-fit: cover;
   transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+  transition: transform 0.5s ease; /* Smooth transition for image transformations */
 }
+
+/* Hover effect for the header */
+.header:hover {
+  background-color: #6d1f04; /* Darker color on hover */
+}
+
+/* Additional styling for the header content */
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+

@@ -1,8 +1,18 @@
+/* Meals Styles */
 .meals {
   max-width: 60rem;
   width: 90%;
   margin: 2rem auto;
   animation: meals-appear 1s ease-out forwards;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px; /* Add a rounded border for a softer look */
+  overflow: hidden; /* Ensure rounded corners apply properly */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for interaction */
+}
+
+.meals:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover for emphasis */
 }
 
 .meals ul {

@@ -1,18 +1,26 @@
+/* Input Styles */
 .input {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
-  }
-  
-  .input label {
-    font-weight: bold;
-    margin-right: 1rem;
-  }
-  
-  .input input {
-    width: 3rem;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font: inherit;
-    padding-left: 0.5rem;
-  }
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem; /* Slightly increased margin for more spacing */
+}
+
+.input label {
+  font-weight: bold;
+  margin-right: 1rem;
+  color: #555; /* Adjusted label color for better readability */
+}
+
+.input input {
+  width: 3rem;
+  border-radius: 8px; /* Increased border radius for a softer look */
+  border: 1px solid #ddd; /* Adjusted border color for subtlety */
+  font: inherit;
+  padding: 0.5rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for interaction */
+}
+
+.input input:focus {
+  border-color: #8a2b06; /* Highlight border color on focus */
+  box-shadow: 0 0 8px rgba(138, 43, 6, 0.5); /* Add a subtle box shadow on focus */
+}
