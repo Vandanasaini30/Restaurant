@@ -6,11 +6,11 @@
   width: 100%;
   height: 100vh;
   z-index: 20;
-  background-color: rgba(0, 0, 0, 0.6); /* Slightly reduced opacity for a softer backdrop */
+  background-color: rgba(0, 0, 0, 0.6); 
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(5px); /* Apply a slight blur to the backdrop */
+  backdrop-filter: blur(5px); 
 }
 
 /* Modal Styles */
